@@ -1,0 +1,51 @@
+body {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.loginForm {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+input {
+  width: 200px;
+  height: 25px;
+  border: transparent;
+  border-radius: 20px;
+  box-shadow: inset 0px 0px 4px #0000006c;
+}
+
+input:hover {
+  box-shadow: inset 0px 0px 10px #0000006c, 0px 0px 3px #0000006c;
+  transition: box-shadow ease 0.5s;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: inset 0px 0px 7px #0000006c, 0px 0px 5px #0000006c;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 5px #0000006c;
+  transition: box-shadow 0.5s ease;
+}
+
+button:hover {
+  box-shadow: inset 0px 0px 7px #0000006c, 0px 0px 5px #0000006c;
+}

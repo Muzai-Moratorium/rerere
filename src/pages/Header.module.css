@@ -1,0 +1,14 @@
+header {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+i {
+  color: #000000;
+  transition: color 0.3s;
+  font-size: 50px;
+}
+
+i:hover {
+  color: rgb(17, 0, 255);
+}
